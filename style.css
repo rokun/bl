@@ -398,6 +398,9 @@ ul.menu {
 .ContentBody.Now {
     padding-top: 92px;
 }
+.ContentBody.StandardBlog {
+    padding-top: 84px;
+}
 .NowPost {
     padding: 25px 0;
 }

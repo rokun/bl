@@ -11,6 +11,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/fonts.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-dropdownhover.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,7 +44,12 @@
                         	<li><a href="#">Projects</a></li>
                             <li><a href="#">Why Me?</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">More <span class="have_children"></span></a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-animations="zoomIn zoomIn zoomIn zoomIn">More <span class="have_children"></span></a>
+                            	<ul class="dropdown-menu">
+                                  <li><a href="#">Action</a></li>
+                                  <li><a href="#">Another action</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#">Contact</a></li> 
                         </ul>
                     </div>
@@ -117,9 +124,11 @@
                         </div>
                     </div>
                     <div class="col-sm-2 social_media">
-                    	Follow @benjamineevans<br>
-                        Find me on Instagram<br>
-                        Stalk me on Facebook
+                    	Follow 
+                        <ul><li><a href="#">@benjamineevans</a></li>
+                        <li><a href="#">Find me on Instagram</a></li>
+                        <li><a href="#">Stalk me on Facebook</a></li>
+                        </ul>
                     </div>
             		<div class="clear"></div>
                 </div>

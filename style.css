@@ -120,7 +120,7 @@ ul.menu {
 }
 .RecentWork{
 	background:url(images/recent-bg.jpg) repeat-x top left #f4f4f4;
-	padding-bottom:80px;
+	padding-bottom:68px;
 }
 .RecentWork h2,  h1.HeadingTitle{
 	color:#fff;
@@ -128,11 +128,12 @@ ul.menu {
 	font-size:58px;
 	line-height:74px;
 }
-.RecentWork h2.TopTitle{
-	font-size:68px;
-	line-height:80px;
-	color:#000;
-	padding-bottom:60px;
+.RecentWork h2.TopTitle {
+    font-size: 68px;
+    line-height: 73px;
+    color: #000;
+    padding-bottom: 54px;
+    padding-top: 0;
 }
 .RecentWork .box{
 	width:510px;/*445*/
@@ -206,6 +207,14 @@ ul.menu {
     padding: 120px 0 0;
     font-weight: bold;
     margin: 0 0 0 780px;
+}
+.social_media ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.social_media ul li a{
+	color:#000;
 }
 .FooterTop .container {
     max-width: 1090px;

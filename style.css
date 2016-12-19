@@ -5,6 +5,11 @@ body{
 	line-height:21px;
 	color:#111111;
 	font-size:16px;
+	background-image:url(images/body-bg.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center top;
 }
 h1, h2, h3,h4,h5{
 	margin:0;
@@ -41,8 +46,8 @@ header .container,.SliderSection .container,.BigWidth .container{
 	clear:both;
 }
 header.bg{
-	background:url(images/body-bg.jpg) no-repeat top center;
-	background-size: cover;
+	/*background:url(images/body-bg.jpg) no-repeat top center;
+	background-size: cover;*/
 }
 .logo {
     float: left;
@@ -521,7 +526,7 @@ span.s_squire.sky {
 .read_all a{
 	color:#EC008C;
 	display:block;
-	padding:20px 0;
+	padding:17px 0;
 	width:170px;
 	margin:0 auto;
 	border: 2px solid #EC008C;

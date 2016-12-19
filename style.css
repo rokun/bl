@@ -41,7 +41,8 @@ header .container,.SliderSection .container,.BigWidth .container{
 	clear:both;
 }
 header.bg{
-	background:url(images/header-bg.jpg) repeat-y top center;
+	background:url(images/body-bg.jpg) no-repeat top center;
+	background-size: cover;
 }
 .logo {
     float: left;
@@ -87,6 +88,7 @@ ul.menu {
     width: 100%;
     background: rgba(255,255,255,.8);
 	z-index:5000;
+	top:0;
 }
 .have_children:before{
 	content:"\f107";

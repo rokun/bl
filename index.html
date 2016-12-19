@@ -24,7 +24,7 @@
   </head>
   <body>
   	<div class="Wrapper">
-    	<div class=""></div>
+
     	<header class="bg">
             <div class="HeaderTop">
             	<div class="container">
@@ -67,6 +67,9 @@
             </div>
             <div class="clear"></div>
         </header>
+        
+       
+        
         <div class="container body_part">
         	<h2 class="TopTitle">He has had the privildege <br>
             of designing for <br>
@@ -252,7 +255,11 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-dropdownhover.js"></script>
-    <script>
+    <script>	
+		$(document).ready(function(){
+			$('.bg').height($(window).height());
+		});
+
 		$(document).scroll(function () {
 			var y = $(this).scrollTop();
 			if (y > 90) {
@@ -263,6 +270,8 @@
 			}
 		
 		});
+		
 	</script>
+    
   </body>
 </html>

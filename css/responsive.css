@@ -32,6 +32,10 @@
 .HeaderBottom h2, .TopTitle{
 	font-size:58px;
 }
+.Projects_ .cuadro_intro_hover {
+    max-width: 510px;
+    margin: 0 auto 30px;
+}
 }
 @media screen and (max-width:950px){
 .Talented .pull-left {
@@ -205,5 +209,20 @@ h1.HeadingTitle{
 }
 .PostBox{
 	height:180px;
+}
+.Projects_ img {
+    width: 100%;
+}
+.Projects_ .cuadro_intro_hover {
+    max-width: 320px;
+    height: 226px;
+}
+.box_title {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px 0;
+}
+.box_content {
+    display: none;
 }
 }

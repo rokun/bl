@@ -392,6 +392,9 @@ ul.menu {
 	color: #313131;
 	padding:0 0 48px 0;
 }
+.NowCon h2.NowFirstContact{
+	padding-bottom:60;
+}
 .ContentBody.Now {
     padding-top: 92px;
 }

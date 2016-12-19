@@ -130,12 +130,15 @@ ul.menu {
 	font-size:58px;
 	line-height:74px;
 }
+.RecentWork h2{
+	padding:78px 0 82px;
+}
 .RecentWork h2.TopTitle {
     font-size: 68px;
     line-height: 73px;
     color: #000;
     padding-bottom: 54px;
-    padding-top: 0;
+    padding-top: 62px;
 }
 .RecentWork .box{
 	width:510px;/*445*/
@@ -206,7 +209,7 @@ ul.menu {
     font-family: 'CircularStd-Medium';
     line-height: 50px;
     color: #000000;
-    padding: 120px 0 0;
+    padding: 200px 0 0;
     font-weight: bold;
     margin: 0 0 0 780px;
 }
@@ -256,6 +259,8 @@ ul.menu {
     width: 100%;
     padding: 10px 15px;
     color: #000;
+	border:1px solid #fff;
+	outline:none !important;
 }
 .FooterTop .contact_form input[type='submit'] {
     background-color: #1a1a1a;

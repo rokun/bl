@@ -115,7 +115,7 @@ ul.menu {
 	padding:0;
 }
 .TopTitle{
-	padding:70px 0;
+	padding:34px 0;
 	margin:0 auto;
 	max-width:1050px;
 	width:100%;
@@ -380,10 +380,10 @@ ul.menu {
 	font-weight: 500;
 	line-height: 42px;
 	color: #313131;
-	padding:0 0 20px 0;
+	padding:0 0 48px 0;
 }
 .ContentBody.Now {
-    padding-top: 85px;
+    padding-top: 92px;
 }
 .NowPost {
     padding: 25px 0;

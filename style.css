@@ -156,6 +156,10 @@ ul.menu {
 	color:#000;
 	cursor:pointer;
 }
+.RecentWork .box.white{
+	background:#fff;
+	padding:45px 30px 20px 40px;
+}
 .RecentWork .box.even{
 	float:right;
 }
@@ -545,12 +549,12 @@ span.s_squire.sky {
 }
 .help_box{
 	max-width: 660px;
-	/*min-height: 380px;*/
-	background-color: #FFFFFF;
+	/*min-height: 380px;
+	background-color: #FFFFFF;*/
 	border: 3px solid #303030;
 	border-radius: 5px;
 	margin:50px auto;
-	padding:46px 45px;
+	/*padding:46px 45px;*/
 }
 .help_box h3{
 	font-size: 34px;
@@ -562,6 +566,7 @@ span.s_squire.sky {
 	font-size: 18px;
 	line-height: 28px;
 	color: #606060;
+	padding:45px 46px;
 }
 .help_box h4{
 	padding-top:35px;
@@ -605,7 +610,7 @@ h1.HeadingTitle {
 	max-width:1000px;
 }
 .PostThumb {
-    padding-bottom: 28px;
+    margin-bottom: 28px;
 }
 .Reading .ContentBody h4{
 	padding-bottom:15px;
@@ -741,11 +746,6 @@ h2.large_title {
   -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  /*margin: 10px;
-  padding: 20px;
-  border: 2px solid #f7f7f7;
-  text-align: center;
-  text-transform: uppercase;*/
   position: relative;
   overflow: hidden;
   -webkit-transition: .3s;
@@ -785,4 +785,27 @@ h2.large_title {
 .button:hover:after {
   left: -10%;
   width: 120%;
+}
+
+/*END Button*/
+.PostThumb{
+	transition: all 0.2s ease;
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.08);
+    transform: translate3d(0, 0, 0);
+}
+.PostThumb:hover{
+    box-shadow: 8px 8px 4px 0 rgba(0,0,0,0.12);
+    transform: translate3d(-4px, -4px, 0);
+}
+.rollover a{
+	color:#000;
+}
+
+
+.top_scroll {
+	background:#000;
+	color:#fff;
+}
+.top_scroll h3, .top_scroll .rollover a{
+	color:#fff;
 }

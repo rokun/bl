@@ -197,14 +197,18 @@
             </div>
         	
             <div class="help_box">
+            	<div class="h_but">
             	<h3>I help leaders create experiences that matter</h3>
                 <p>I work with underdogs - from hustling entrepreneurs to fortune 500 CEOS to help them build products and services that matter. I believe that design has the power to change the world, and we have a responsiblity to design </p>
-                <h4>Ready to start? Get in contact</h4>
+                <h4 class="rollover"><a href="#">Ready to start? Get in contact</a></h4>
+                </div>
             </div>
             
             <h1 class="HeadingTitle">Talks</h1>
             <div class="SubTitle">I believe we all want to make ideas happen. I speak on topics like creativity, productivity and leadership. Check out the videos below to find out more!</div>
             
+       
+
             <div class="container talks">
             	<div class="row">
                 	<div class="RecentPost">
@@ -377,11 +381,21 @@
             </div>
         </div>
     </div>
-
+	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-dropdownhover.js"></script>
+    <script>
+		$(document).ready(function() {     
+			$('.rollover').hover(function(){     
+				$('.help_box').addClass('top_scroll');    
+			},     
+			function(){    
+				$('.help_box').removeClass('top_scroll');     
+			});
+		});   
+	</script>
   </body>
 </html>

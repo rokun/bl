@@ -299,6 +299,9 @@ ul.menu {
     color: #212121;
     font-size: 14px;
 }
+.Projects_.container .col-md-6 {
+    padding-bottom: 30px;
+}
 /*About US Section ##################### */
 .MainSlider{
 	background:#B1B1B1;

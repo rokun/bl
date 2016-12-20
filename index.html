@@ -247,16 +247,15 @@
 		
 		});*/
 var lastScroll = 0;
-
 jQuery(document).ready(function($) {
-    $(".HeaderTop").addClass("mobile");
+    $(".HeaderTop").removeClass("sticky");
 
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > lastScroll) {
-            $(".HeaderTop").removeClass("mobile");
+            $(".HeaderTop").removeClass("sticky");
         } else if (scroll < lastScroll) {
-            $(".HeaderTop").addClass("mobile");
+            $(".HeaderTop").addClass("sticky");
         }
         lastScroll = scroll;
     });

@@ -88,7 +88,7 @@ ul.menu {
 .main_menu ul li:last-child a {
     padding-right: 0;
 }
-.HeaderTop.sticky {
+.HeaderTop.sticky.mobile {
     position: fixed;
     width: 100%;
     background: rgba(255,255,255,.8);
@@ -298,9 +298,6 @@ ul.menu {
 .Footer .menu li a {
     color: #212121;
     font-size: 14px;
-}
-.Projects_.container .col-md-6 {
-    padding-bottom: 30px;
 }
 /*About US Section ##################### */
 .MainSlider{
@@ -804,7 +801,9 @@ h2.large_title {
 	color:#000;
 }
 
-
+.Projects_.container .col-md-6 {
+    padding-bottom: 30px;
+}
 .top_scroll {
 	background:#000;
 	color:#fff;

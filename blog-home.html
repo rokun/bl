@@ -290,19 +290,15 @@
             	<div class="row">
                 	<div class="col-md-6">
                     	<img src="images/perspective_cards.jpg" alt="" />
-                        
                     </div>
                     <div class="col-md-6">
                     	<img src="images/inclusion_framework.jpg" alt="" />
-                       
                     </div>
                     <div class="col-md-6">
                     	<img src="images/belong.jpg" alt="" />
-                      
                     </div>
                     <div class="col-md-6">
                     	<img src="images/diverse_faces.jpg" alt="" />
-                       
                     </div>
                 </div>
             </div>
@@ -376,6 +372,33 @@
 				$('.help_box').removeClass('top_scroll');     
 			});
 		});   
+		
+		
+		$(document).scroll(function () {
+			var y = $(this).scrollTop();
+			if (y > 90) {
+				//$('.bottomMenu').fadeIn();
+				 $('.HeaderTop').addClass('sticky');
+			} else {
+				$('.HeaderTop').removeClass('sticky');
+			}
+		
+		});
+		var lastScroll = 0;
+		
+		jQuery(document).ready(function($) {
+			$(".HeaderTop").addClass("mobile");
+		
+			$(window).scroll(function(){
+				var scroll = $(window).scrollTop();
+				if (scroll > lastScroll) {
+					$(".HeaderTop").removeClass("mobile");
+				} else if (scroll < lastScroll) {
+					$(".HeaderTop").addClass("mobile");
+				}
+				lastScroll = scroll;
+			});
+		});
 	</script>
   </body>
 </html>

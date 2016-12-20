@@ -156,6 +156,21 @@
 			}
 		
 		});
+		var lastScroll = 0;
+		
+		jQuery(document).ready(function($) {
+			$(".HeaderTop").addClass("mobile");
+		
+			$(window).scroll(function(){
+				var scroll = $(window).scrollTop();
+				if (scroll > lastScroll) {
+					$(".HeaderTop").removeClass("mobile");
+				} else if (scroll < lastScroll) {
+					$(".HeaderTop").addClass("mobile");
+				}
+				lastScroll = scroll;
+			});
+		});
 		
 	</script>
   </body>

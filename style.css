@@ -128,6 +128,7 @@ ul.menu {
 .RecentWork{
 	background:url(images/recent-bg.jpg) repeat-x top left #f4f4f4;
 	padding-bottom:68px;
+	margin-top:23px;
 }
 .RecentWork h2,  h1.HeadingTitle{
 	color:#fff;

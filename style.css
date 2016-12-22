@@ -812,3 +812,10 @@ h2.large_title {
 .top_scroll h3, .top_scroll .rollover a{
 	color:#fff;
 }
+.Footer .span6 {
+    float: left;
+    width: 50%;
+}
+.DText,.FText {
+    max-width: 420px;
+}

@@ -1,28 +1,37 @@
 @media screen and (max-width:1200px){
 .RecentWork .box {
     width: 48.5%;
+	height: 100%;
+    min-height: 322px;
+}
+.RecentWork .box img {
+    width: 100%;
+}
+.box_title {
+    line-height: 33px;
+    font-size: 25px;
 }
 }
 @media screen and (max-width:1120px){
 .Talented .Instragram {
     float: none;
     margin: 0 auto;
+	max-width:768px;
 }
 .Talented .ConText {
     margin: 0 auto;
     max-width: 600px;
     padding: 40px 0;
 }
-}
-@media screen and (max-width:1050px){
-.RecentWork .box,.RecentWork .box.even  {
-    float: none;
-    margin: 0 auto 30px;
-	max-width:480px;
-	width:100%;
+.Talented .thumb{
+	width:192px;
+	height:192px;
 }
 }
 @media screen and (max-width:992px){
+.RecentWork .box {
+    min-height: 248px;
+}
 .image_size{
 	margin:0 auto 30px;
 }
@@ -30,11 +39,24 @@
     width: 100%;
 }
 .HeaderBottom h2, .TopTitle{
-	font-size:58px;
+	font-size:52px;
+	line-height:68px;
 }
 .Projects_ .cuadro_intro_hover {
     max-width: 510px;
     margin: 0 auto 30px;
+}
+.RecentWork .box.white{
+	padding:24px 10px 20px 20px;
+}
+.box_title {
+    font-size: 22px;
+    line-height: 32px;
+    padding: 12px 0;
+}
+.box_content {
+    font-size: 14px;
+    line-height: 24px;
 }
 }
 @media screen and (max-width:950px){
@@ -47,6 +69,9 @@
 }
 }
 @media screen and (max-width:778px){
+.RecentWork .box {
+    min-height: inherit;
+}
 .social_media {
     font-size: 12px;
 }
@@ -57,7 +82,10 @@
     padding-bottom: 30px;
 }
 }
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
+.RecentWork .box.white{
+	padding-bottom:26px;
+}
 .PostThumb img {
     width: auto;
 }
@@ -66,13 +94,42 @@
     text-align: center;
     margin: 0 auto;
 }
+.RecentWork h2 {
+    font-size: 44px;
+    line-height: 56px;
+    padding: 40px 0 82px;
 }
+.RecentWork h2.TopTitle {
+  font-size: 52px;
+  line-height: 68px;
+}
+.HeaderBottom{
+	padding:320px 0 0;
+}
+.HeaderTop{
+	padding:12px 0;
+}
+.HeaderBottom h2, .TopTitle{
+	padding:20px 0;
+}
+/*}
 @media screen and (max-width:767px){
+*/
+.navbar-header {
+    float: right;
+}
+.navbar-toggle {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 header ul.menu {
    width: 100%;
 }
-header .main_menu{
-	float:none;
+header .container .main_menu {
+    float: none;
+    margin: 0 auto;
+    max-width: 320px;
+    width: 100%;
 }
 header .main_menu ul li {
     display: block;
@@ -93,6 +150,51 @@ header .main_menu ul li a {
 header.bg{
 	background:none;
 }
+.Talented .ConText {
+  font-size: 24px;
+  line-height: 44px;
+}
+.FooterTop .widget_title {
+  font-size: 38px;
+  line-height: 52px;
+}
+.span_row .span6 {
+  float: left;
+  padding: 0 15px;
+  width: 50%;
+}
+.span_row {
+  margin: 0 -15px;
+}
+.FooterTop .pull-right {
+    float: none !important;
+}
+.Footer .col-sm-4 {
+  float: left;
+  width: 48%;
+}
+.FooterTop{
+	padding:75px 0 70px;
+}
+.DText{
+	max-width:inherit;
+}
+.Footer .col-sm-8 {
+  float: left;
+  width: 50%;
+}
+header.bg {
+  height: inherit !important;
+}
+}
+@media screen and (max-width:740px){
+.RecentWork .box, .RecentWork .box.even{
+	    float: none;
+    margin: 0 auto 20px;
+    width: 100%;
+    max-width: 450px;
+}
+
 }
 @media screen and (max-width:740px){
 .Talented .Instragram {
@@ -104,24 +206,30 @@ header.bg{
 }
 }
 @media screen and (max-width:668px){
-.HeaderBottom h2, .TopTitle{
-	font-size:30px;
-	line-height:normal;
+.HeaderBottom h2, .TopTitle {
+    font-size: 36px;
+    line-height: 40px;
+}
+.HeaderBottom h2{
+	padding-bottom:0;
 }
 .HeaderBottom {
-    padding: 80px 0 30px;
+  padding: 234px 0 12px;
 }
 .RecentWork h2.TopTitle {
-    font-size: 36px;
-    line-height: normal;
-    text-align: center;
-    padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 15px 0;
 }
 .RecentWork h2 {
-    padding: 20px 0;
-    line-height: normal;
-    font-size: 32px;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 40px 0;
 }
+.RecentWork .box, .RecentWork .box.even{
+	margin-bottom:12px;
+}
+
 .read_more a {
     font-size: 24px;
     line-height: normal;
@@ -203,10 +311,6 @@ h1.HeadingTitle{
 }
 }
 @media screen and (max-width:550px){
-.RecentWork .box {
-    width: 100%;
-    max-width: 510px;
-}
 .PostBox{
 	height:180px;
 }
@@ -222,7 +326,43 @@ h1.HeadingTitle{
     line-height: 24px;
     padding: 10px 0;
 }
-.box_content {
-    display: none;
+.Footer .col-sm-8{
+	float:none;
+	width:100%;
+	font-size: 14px;
+	line-height: 26px;
+	color: #818181;
 }
+.Footer .col-sm-4 {
+  float: none;
+  width: 100%;
+}
+.Footer .span6{
+	display:none;
+}
+.Footer .span6.social_media{
+	display:block;
+	width:100%;color: #EC008C;
+}
+.Footer .span6.social_media a{
+	color: #EC008C;
+	font-size:14px;
+}
+.span_row .span6 {
+  float: none;
+  width: 100%;
+}
+}
+@media screen and (max-width:380px){
+.RecentWork .box, .RecentWork .box.even{
+	min-height:inherit;
+}
+}
+@media screen and (max-width:720px){
+}
+@media screen and (max-width:600px){
+}
+@media screen and (max-width:480px){
+}
+@media screen and (max-width:360px){
 }

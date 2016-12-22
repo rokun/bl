@@ -650,6 +650,19 @@ h1.HeadingTitle {
     padding: 44px 20px 66px;
     color: #EC008C;
 }
+.FooterTop .widget_title{
+	font-size:30px;
+	line-height:36px;
+}
+.FooterTop {
+    padding: 48px 0 70px;
+}
+.DText p {
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0;
+    padding-bottom: 20px;
+}
 }
 @media screen and (max-width:380px){
 .RecentWork .box, .RecentWork .box.even{

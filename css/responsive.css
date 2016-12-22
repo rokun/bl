@@ -186,6 +186,21 @@ header.bg{
 header.bg {
   height: inherit !important;
 }
+.NowSlider .SliderContent h1 {
+  font-size: 80px;
+  line-height: 92px;
+  text-align: left;
+}
+.MainSlider.NowSlider {
+  padding: 156px 0 144px;
+}
+.ContentBody.StandardBlog {
+  padding-bottom: 128px;
+  padding-top: 56px;
+}
+.NowCon h2{
+	padding-bottom:40px;
+}
 }
 @media screen and (max-width:740px){
 .RecentWork .box, .RecentWork .box.even{
@@ -240,7 +255,7 @@ header.bg {
 }
 .SliderContent h3, .PostTop h2, .help_box h3{
     font-size: 22px;
-    line-height: 28px;
+    line-height: 26px;
 }
 .help_box h3{
 	line-height:24px;
@@ -248,6 +263,7 @@ header.bg {
 }
 .SliderContent p{
 	font-size:16px;
+	line-height:26px;
 }
 .slider_caption {
     right: 10px;
@@ -269,7 +285,6 @@ h1.title{
 .NowSlider .SliderContent h1, .SliderContent h1, .TopSection h1{
 	font-size:44px;
 	line-height:55px;
-	text-align:justify;
 }
 .TopSection h3, .PostContent h2{
 	font-size:20px;
@@ -351,6 +366,42 @@ h1.HeadingTitle{
 .span_row .span6 {
   float: none;
   width: 100%;
+}
+.MainSlider{
+	padding:58px 0 50px;
+}
+.SliderContent h3{
+	padding-bottom:15px;
+}
+.SliderContent p{
+	padding:20px 0;
+}
+.SliderContent h4{
+	padding-top:22px;
+}
+.ContentBody{
+	padding:42px 0 17px;
+}
+.ContentBody h3{
+	padding-bottom:12px;
+}
+.ContentBody .col-sm-4 {
+  padding-bottom: 32px;
+}
+.NowSlider .SliderContent h1 {
+  font-size: 44px;
+  line-height: 55px;
+}
+.MainSlider.NowSlider {
+  padding: 137px 0 98px;
+}
+.ContentBody.StandardBlog {
+  padding-bottom: 128px;
+  padding-top: 28px;
+}
+.NowCon h2 {
+  font-size: 20px;
+  line-height: 28px;
 }
 }
 @media screen and (max-width:380px){

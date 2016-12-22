@@ -644,6 +644,12 @@ h1.HeadingTitle {
   padding: 5px 10px;
   width: 100%;
 }
+.Talented .ConText {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 44px 20px 66px;
+    color: #EC008C;
+}
 }
 @media screen and (max-width:380px){
 .RecentWork .box, .RecentWork .box.even{

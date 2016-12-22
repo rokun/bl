@@ -75,9 +75,6 @@
 .social_media {
     font-size: 12px;
 }
-.PostPage .PostContent{
-	padding:0;
-}
 .NowCon h1 {
     padding-bottom: 30px;
 }
@@ -267,6 +264,64 @@ header.bg {
 .RecentPost .thumb{
 	height:190px;
 }
+.PostTop .container{
+	padding-top:78px;
+	padding-bottom:30px;
+}
+.PostTop h2{
+	letter-spacing:-1px;
+}
+.MainSlider.PostSlider {
+  min-height: 360px;
+}
+.ContentBody.PostPage {
+  padding-top: 70px;
+}
+.PostContent h2 {
+  font-size: 28px;
+  line-height: 34px;
+}
+.PostBox {
+  height: 408px;
+  margin: 0 auto;
+  max-width: 710px;
+}
+
+
+.SliderSection {
+  padding: 28px 0 180px;
+}
+.SliderBox{
+	margin: 0 auto;
+  max-width: 682px;
+}
+.slider_image{
+  height: 390px;
+  
+}
+.slider_caption{
+	left:20px;
+	right:20px;
+	bottom:-128px;
+}
+.RecentPost {
+  margin: 0 auto;
+  max-width: 712px;
+}
+.RecentPost .post_p {
+  padding-bottom: 20px;
+}
+.Projects_.container .row {
+  margin: 0 auto;
+  max-width: 710px;
+}
+.Projects_.container .col-md-6 {
+  float: left;
+  width: 50%;
+}
+.Projects_.container img {
+  width: 100%;
+}
 }
 @media screen and (max-width:740px){
 .RecentWork .box, .RecentWork .box.even{
@@ -319,7 +374,7 @@ header.bg {
     font-size: 44px;
     line-height: normal;
 }
-.SliderContent h3, .PostTop h2, .help_box h3{
+.SliderContent h3, .help_box h3{
     font-size: 22px;
     line-height: 26px;
 }
@@ -380,9 +435,10 @@ h1.HeadingTitle{
 .SubTitle{
 	padding-bottom:25px;
 }
-.slider_caption h3{
-	font-size:20px;
-	line-height:24px;
+.slider_caption h3 {
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 5px;
 }
 .SLCon{
 	display:none;
@@ -538,6 +594,55 @@ h1.title {
 }
 .RecentPost .thumb {
   height: 160px;
+}
+.PostTop h2 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.PostTop .container {
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+.ContentBody.PostPage {
+  padding-top: 24px;
+  padding-bottom:60px;
+}
+h2.large_title {
+  padding-top: 5px;
+}
+.slider_caption {
+  bottom: -45px;
+  left: 10px;
+  padding: 13px 17px 13px;
+  right: 10px;
+}
+.SliderBox .date_publish {
+  display: block;
+  padding: 0;
+}
+.SliderSection {
+  padding-bottom: 82px;
+}
+.help_box {
+  margin: 0 10px;
+  padding: 35px 15px 34px 25px;
+}
+h1.HeadingTitle {
+  font-size: 38px;
+  line-height: 44px;
+}
+.SubTitle {
+  margin: 0 20px;
+  width: auto;
+}
+.Projects_.container {
+  padding: 0 0 80px;
+}
+.Projects_.container .col-md-6 {
+  float: none;
+  padding: 5px 10px;
+  width: 100%;
 }
 }
 @media screen and (max-width:380px){

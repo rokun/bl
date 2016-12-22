@@ -672,7 +672,8 @@ h1.HeadingTitle {
     max-width: 810px;
 }
 .PostPage .PostContent {
-    padding: 0 80px;
+	max-width:620px;
+	margin:0 auto;
 }
 .PostContent h2{
 	line-height: 34px;
@@ -818,4 +819,7 @@ h2.large_title {
 }
 .DText,.FText {
     max-width: 420px;
+}
+.SliderBox .date_publish {
+    display: none;
 }

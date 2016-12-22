@@ -91,7 +91,6 @@
 }
 .Reading .ContentBody .col-sm-4 {
     max-width: 350px;
-    text-align: center;
     margin: 0 auto;
 }
 .RecentWork h2 {
@@ -200,6 +199,73 @@ header.bg {
 }
 .NowCon h2{
 	padding-bottom:40px;
+}
+
+.NowPage .NowSlider .SliderContent h1 {
+  font-size: 110px;
+  line-height: 160px;
+  text-align: center;
+}
+.NowPage .MainSlider.NowSlider {
+  padding: 110px 0 66px;
+}
+.ContentBody.Now {
+  padding-top: 68px;
+}
+.NowPost .col-sm-10 {
+  float: left;
+  width: 82%;
+}
+.NowPost .col-sm-2 {
+  float: left;
+  width: 18%;
+}
+.NowPost {
+  padding: 22px 0;
+}
+.NowCon h2.NowFirstContact {
+  padding-bottom: 40px;
+}
+.TopSection h1, h1.title{
+  font-size: 58px;
+  line-height: 74px;
+  padding-bottom: 15px;
+}
+.container.text_con{
+	padding-top:68px;
+}
+.ContentBody{
+	padding-top:45px;
+}
+.text_con h3 {
+  font-size: 22px;
+  line-height: 32px;
+}
+.Reading .ContentBody .col-sm-4 {
+  float: left;
+  max-width: 332px;
+}
+.Reading .ContentBody .row {
+  margin: 0 auto;
+  max-width: 664px;
+}
+.TitleSection h4{
+	padding-top:0;
+}
+.TitleSection {
+  padding-bottom: 60px;
+  padding-top: 72px;
+}
+.AllArticle {
+  margin: 0 auto;
+  max-width: 740px;
+}
+.RecentPost .post_p {
+  float: left;
+  width: 50%;
+}
+.RecentPost .thumb{
+	height:190px;
 }
 }
 @media screen and (max-width:740px){
@@ -402,6 +468,76 @@ h1.HeadingTitle{
 .NowCon h2 {
   font-size: 20px;
   line-height: 28px;
+  padding-bottom:20px;
+}
+.ContentBody .NowCon {
+  font-size: 14px;
+  line-height: 26px;
+}
+.ContentBody .NowCon p {
+  margin: 0;
+  padding: 14px 0;
+}
+.NowPage .NowSlider .SliderContent h1 {
+  font-size: 80px;
+  line-height: 92px;
+}
+.NowPage .MainSlider.NowSlider {
+  padding: 118px 0 78px;
+}
+.ContentBody.Now {
+  padding-top: 28px;
+}
+.NowCon h1 {
+  font-size: 70px;
+  line-height: 54px;
+}
+.ContentBody h3 {
+  font-size: 22px;
+  line-height: 28px;
+  padding-bottom: 5px;
+}
+.NowPost .col-sm-10 {
+  width: 100%;
+}
+.container.text_con {
+  padding-top: 44px;
+}
+.Reading .TopSection h1 {
+  font-weight: 700;
+  padding-bottom: 26px;
+}
+.TopSection h3 {
+  font-size: 16px;
+  line-height: 26px;
+}
+.Reading .ContentBody .col-sm-4 {
+  float: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 280px;
+}
+.PostThumb img {
+  width: 100%;
+}
+.TitleSection {
+  padding-bottom: 22px;
+  padding-top: 45px;
+}
+h1.title {
+  line-height: 55px;
+}
+.TitleSection h4 {
+  font-size: 12px;
+  line-height: 22px;
+}
+.RecentPost .post_p {
+  float: none;
+  margin: 0 auto;
+  width: 310px;
+}
+.RecentPost .thumb {
+  height: 160px;
 }
 }
 @media screen and (max-width:380px){

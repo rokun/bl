@@ -80,6 +80,27 @@
 }
 }
 @media screen and (max-width: 768px){
+button.navbar-toggle {
+    font-size: 9px;
+    padding: 3px 6px 6px 5px;
+    border-radius: 2px;
+    border: 1px solid #ECECEC;
+    width: 60px;
+	height:28px;
+}
+span.fbut {
+    float: right;
+	padding:6px 0 0;
+}
+span.text {
+    float: left;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 11px;
+    height: 1px;
+    margin: -1px 0 -1px 0;
+}
 .RecentWork .box.white{
 	padding-bottom:26px;
 }
@@ -113,6 +134,7 @@
 */
 .navbar-header {
     float: right;
+	padding-top:3px;
 }
 .navbar-toggle {
     margin-top: 0;

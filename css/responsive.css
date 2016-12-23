@@ -662,7 +662,7 @@ h1.HeadingTitle {
     padding-bottom: 20px;
 }
 .read_all a, .talks .read_all a{
-  margin: 0 10px;
+  margin: 0 auto;
   max-width: 300px;
   width: 100%;
 }

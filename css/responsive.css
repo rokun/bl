@@ -400,9 +400,7 @@ h1.title{
 .read_all.pull-right {
     float: none !important;
 }
-.read_all a {
-    width: 300px;
-}
+
 .NowSlider .SliderContent h1, .SliderContent h1, .TopSection h1{
 	font-size:44px;
 	line-height:55px;
@@ -662,6 +660,11 @@ h1.HeadingTitle {
     line-height: 26px;
     margin: 0;
     padding-bottom: 20px;
+}
+.read_all a, .talks .read_all a{
+  margin: 0 10px;
+  max-width: 300px;
+  width: 100%;
 }
 }
 @media screen and (max-width:380px){
